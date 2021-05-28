@@ -104,3 +104,31 @@ dl {
 dt {
   margin-left: 20px;
 }
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+  padding-bottom: 0;
+}
+
+figure {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+center {
+  font-size: 11pt;
+  margin-top: 0;
+  color: white;
+  font-weight: bold;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
