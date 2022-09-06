@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>rp</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/window-engine.css">  
+        <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    </head>
+    <style>
+        body {
+            background-image: url("bg2.png");
+        }
+
+    </style>
+    <body>
+        <div class="header">
+            <button type="button" id="button1">🏠 home</button>
+        </div>
+
+        <figure>
+            <a href="https://github.com/rp-z80" target="_blank">
+                <img class="icon" src="images/icons/github.png">
+            </a>
+            <center>github</center>
+        </figure> 
+
+        <figure>
+            <a href="#" id="button2">
+                <img class="icon" src="images/icons/system.png">
+            </a>
+            <center>about me</center>
+        </figure> 
+
+        <figure>
+            <a href="#" id="button3">
+                <img class="icon" src="images/icons/document.png">
+            </a>
+            <center>stuff i made</center>
+        </figure> 
+
+        <figure>
+            <a href="#" id="button4">
+                <img class="icon" src="images/icons/letter.png">
+            </a>
+            <center>contacts</center>
+        </figure> 
+
+        <div class="windowGroup">
+
+            <!-- WINDOW 1 -->
+    
+            <div id="window1" class="window small" style="display: initial;">
+                <div class="purple">
+                    
+                    <p class="windowTitle">home</p>
+                    
+                </div>
+                <div class="mainWindow">
+                    <div class="container" style="padding-top: 50px;">
+                        <div align=center >
+                            <img src="images/nadia.gif" width="30%" height="30%">
+                            <p>hello, world!</p>
+                        </div>
+                        <ul>
+                           <!-- <li><a href="#" id="button2">>about me</a></li>
+                            <li><a href="#" id="button3">>some stuff i made</a></li>
+                            <li><a href="https://github.com/rp-z80" target="_blank">>github</a></li>
+                            <li><a href="#" id="button4">>contacts</a></li>-->
+                        </ul>
+                    </div>     
+                </div>
+            </div>
+                
+
+                <!--WINDOW 2-->
+
+                <div id="window2" class="window">
+                    <div class="purple">
+                        <p class="windowTitle">about me</p>
+                    </div>
+                    <div class="mainWindow">
+                        <object data="about_me.html" ></object>
+                    </div>
+                </div>
+
+                 <!--WINDOW 3-->
+
+                 <div id="window3" class="window">
+                    <div class="purple">
+                        <p class="windowTitle">some stuff i made</p>
+                    </div>
+                    <div class="mainWindow">
+                        <object data="portfolio.html" ></object>
+                    </div>
+                </div>
+
+                <!--WINDOW 4-->
+
+                <div id="window4" class="window small">
+                    <div class="purple">
+                        <p class="windowTitle">contacts</p>
+                    </div>
+                        <div class="mainWindow" style="height: 70%;">
+                            <div class="container">
+                                <div align=center>
+                                    <img src="images/dragonite.gif" width="30%" height="30%">
+                                </div>
+                                <p>feel free to send me an <a href=mailto:test@test.t >email</a>. just be nice.</p>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        <footer>&copy 2021 rp - this site doesn't use any kind of cookie</footer>
+
+    </body>
+    
+</html>
+
+<script src="window-engine.js"></script>
+
+    
